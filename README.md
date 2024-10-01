@@ -1,0 +1,38 @@
+# Python Library Complex Table PDF Parsing Feasibility Study
+
+Arguably in order from worst to best parsing complex tables
+
+
+## [pdfminer.six](https://pdfminersix.readthedocs.io/en/latest/)
+Parse and group all objects from a PDF document into Python objects. Extract text, images (JPG, JBIG2 and Bitmaps), table-of-contents, tagged contents and more. Support for Chinese, Japanese and Korean CJK languages as well as vertical writing. Support for various font types (Type1, TrueType, Type3, and CID). Support for RC4 and AES encryption. Support for AcroForm interactive form extraction. No real table support.
+
+## [PyMuPDF library]()
+Library that allows you to extract text, images, links from PDF files. Has interesting [extract key-value pairs](https://pymupdf.readthedocs.io/en/latest/recipes-text.html#how-to-extract-key-value-pairs-from-a-page) function. Able to write files. No real table support. 
+
+## [pdfplumber](https://github.com/jsvine/pdfplumber)
+library for pdf processing that allows for extracting text, images, and tables from PDF files. Misses some tables.
+
+## [tabula-java](https://github.com/tabulapdf/tabula-java)
+Java library specifically for extracting tables from PDF files. Doesn't seem to be getting updated lately. Misses some tables.
+
+## [Unstructured](https://docs.unstructured.io/welcome)
+Does not work with Python 3.12 yet. Can't handle merged cells in tables.
+https://github.com/sudarshan-koirala/youtube-stuffs/blob/main/data-cleaning/unstructured-table-extraction-from-pdf.ipynb
+
+## [Marker](https://github.com/VikParuchuri/marker)
+Converts PDF to markdown including tables and code blocks accurately. Marker is a pipeline of deep learning models and requires Torch but works on GPU, CPU, or MPS. Can't handle merged cells in tables.
+
+`pip install marker-pdf`
+
+## [camelot](https://camelot-py.readthedocs.io/en/master/)
+Provides two extraction methods: stream (for tables with clear lines) and lattice (for tables with cell boundaries). Handles merged cells correctly.
+
+## [LlamaParse](https://www.llamaindex.ai/)
+https://colab.research.google.com/drive/18KB9yXxDUeQGrEZEP1eCrXQ0dNB-Oazm?usp=sharing#scrollTo=aYIUKOJ_z0eY
+The best so far. Handles merged cells correctly.
+
+
+
+Misc.
+https://streamlit.io/
+https://labs.google.com/code/exit
