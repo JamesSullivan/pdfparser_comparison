@@ -11,11 +11,11 @@ Library that allows you to extract text, images, links from PDF files. Has inter
 ## [pdfplumber](https://github.com/jsvine/pdfplumber)
 Library for pdf processing that allows for extracting text, images, and tables from PDF files. Misses some tables.
 
-## [tabula-java](https://github.com/tabulapdf/tabula-java)
-Java library specifically for extracting tables from PDF files. Doesn't seem to be getting updated lately. Misses some tables.
-
 ## [Marker](https://github.com/VikParuchuri/marker)
 Converts PDF to markdown including tables and code blocks accurately. Marker is a pipeline of deep learning models and requires Torch but works on GPU, CPU, or MPS. Can't handle merged cells in tables.
+
+## [tabula-java](https://github.com/tabulapdf/tabula-java)
+Java library specifically for extracting tables from PDF files. Doesn't seem to be getting updated lately. Provides two extraction methods: stream (for tables with clear lines) and lattice (for tables with cell boundaries).  Has to exclude merged cells to handle tables containing them correctly.
 
 ## [Unstructured](https://docs.unstructured.io/welcome)
 Does not support Python 3.12 yet. Seems to need OCR for complex tables so misses a few numbers, but handles merged cells correctly.
