@@ -34,3 +34,17 @@ Provides two extraction methods: stream (for tables with clear lines) and lattic
 
 ## To do -- Checkout 
 [Extracting financial disclosure reports and police blotter narratives using OpenAI's Structured Output](https://gist.github.com/dannguyen/faaa56cebf30ad51108a9fe4f8db36d8)
+
+
+
+
+
+[Intelligent Document Processing 2.0 (IDP 2.0) Platform Powered by Large Language Models](https://github.com/Zipstack/unstract)
+[marker-pdf Convert PDF to markdown with high speed and accuracy.](https://www.piwheels.org/project/marker-pdf/)
+[Nougat a Visual Transformer model that performs OCR for processing scientific documents into a markup language](https://huggingface.co/docs/transformers/en/model_doc/nougat)
+[PyPDF PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files.](https://github.com/py-pdf/pypdf)
+[ Data-Extraction-Code-Snippets ](https://github.com/NanoNets/Data-Extraction-Code-Snippets/blob/main/using_python_libraries_to_automate_data_entry.py)
+https://nanonets.com/blog/extract-tables-from-pdf/
+https://artifex.com/blog/table-recognition-extraction-from-pdfs-pymupdf-python
+https://github.com/jsvine/pdfplumber
+https://github.com/yigitkonur/swift-ocr-llm-powered-pdf-to-markdown
