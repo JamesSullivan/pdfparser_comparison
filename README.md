@@ -35,6 +35,8 @@ Provides two extraction methods: stream (for tables with clear lines) and lattic
 ## To do -- Checkout 
 [Extracting financial disclosure reports and police blotter narratives using OpenAI's Structured Output](https://gist.github.com/dannguyen/faaa56cebf30ad51108a9fe4f8db36d8)
 
+[power of structured visual understanding using the VLM Run Platform](https://github.com/vlm-run/vlmrun-cookbook/tree/main)
+
 
 
 
