@@ -37,7 +37,7 @@ Provides two extraction methods: stream (for tables with clear lines) and lattic
 
 [power of structured visual understanding using the VLM Run Platform](https://github.com/vlm-run/vlmrun-cookbook/tree/main)
 
-
+[Mistral OCR. Specialized PDF Parsing](https://mistral.ai/en/news/mistral-ocr)
 
 
 
